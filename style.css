@@ -1,0 +1,176 @@
+
+/* DIV PRINCIPAL */
+
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+
+.pokemon-card {
+    background-color: #333333; 
+    color: white;             
+    padding: 2rem;
+    border-radius: 1rem;       
+    width: 800px;              
+    max-width: 90%;           
+    text-align: center;        
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;       
+    background-color: transparent; /
+} 
+
+.pokemon-der {
+    width: 40%;
+    text-align: center;
+    border-left: 2px solid #555;
+    padding-left: 20px;
+}
+
+.pokemon-izq {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+/* BUSCADOR y TITULO*/
+.Title {
+    text-align: center;          
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: #ffcb05;             
+    
+    
+    text-shadow:
+        -3px -3px 0 #2a75bb,
+         3px -3px 0 #2a75bb,
+        -3px  3px 0 #2a75bb,
+         3px  3px 0 #2a75bb;
+
+    margin-top: 20px;
+}
+
+body {
+    background-image: url("https://preview.redd.it/pokemon-emerald-wallpaper-blank-v0-c5jb4d6mn0ky.png?width=1080&crop=smart&auto=webp&s=65a297c01167fd11276127cff929f644157756a1"); /* ruta de tu imagen */
+    background-size: cover;        
+    background-position: center;  
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  
+}            
+
+
+
+.buscador {
+    display: flex;        
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;           
+}
+
+.form-control {
+    width: 200px;        
+    padding: 5px;
+}
+
+.btn {
+    margin-top: 0;       
+}
+
+
+
+/* DATOS IMAGEN,TITULO Y DATOS GENERALES */
+ 
+.pokemon-mostrar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    
+}
+
+.pokemonTipos {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.pokemon-img {
+    width: 300px;
+    object-fit: contain;
+    margin-left: 50px;
+    filter: drop-shadow(0 10px 15px rgba(124, 123, 123, 0.801));;
+    background-color: #ffffff38;
+}
+
+.tipos-container {
+    display: flex;
+    gap: 10px;
+}
+
+.debilidades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.type {
+    padding: 15px 35px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.pokemonId {
+    font-size: 80px;
+    color: rgba(236, 228, 228, 0.548); 
+}
+
+.nombreP {
+    text-transform: capitalize;
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.altP, .PesoP {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+
+/*ESTADISTICAS*/
+
+
+
+/*COLORES DE LOS TIPOS*/
+
+.fire { background: #f08030; }
+.water { background: #6890f0; }
+.grass { background: #78c850; }
+.electric { background: #f8d030; color: black; }
+.ice { background: #98d8d8; color: black; }
+.fighting { background: #c03028; }
+.poison { background: #a040a0; }
+.ground { background: #e0c068; color: black; }
+.flying { background: #a890f0; }
+.psychic { background: #f85888; }
+.bug { background: #a8b820; }
+.rock { background: #b8a038; }
+.ghost { background: #705898; }
+.dragon { background: #7038f8; }
+.dark { background: #705848; }
+.steel { background: #b8b8d0; color: black; }
+.fairy { background: #ee99ac; }
+
